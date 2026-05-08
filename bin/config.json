@@ -1,0 +1,89 @@
+{
+  "api": {
+    "baseUrl": "https://api.jiandaoyun.com/api/v5",
+    "token": "ymevPm4ut24gvHenGkx2Jx5qgyJrBYk3",
+    "appId": "69dca4d04c1eb1be14657b13",
+    "entryId": "68fb8497d947258745cc9ba7",
+    "timeoutSeconds": 60,
+    "creatorUsername": "jdy-zz3xu7hvdegg",
+    "isStartWorkflow": false,
+    "createMode": "single_create_with_trigger",
+    "isStartTrigger": true,
+    "retryAttempts": 3,
+    "retryDelaySeconds": 20,
+    "autoFillPollAttempts": 10,
+    "autoFillPollDelaySeconds": 1.0,
+    "waitForAutoFillFields": [
+      "trackingNumber",
+      "code"
+    ]
+  },
+  "fields": {
+    "trackingNumber": "_widget_1691049723447",
+    "createDate": "_widget_1691050278796",
+    "createBy": "_widget_1691050278797",
+    "serviceSite": "_widget_1701742421216",
+    "code": "_widget_1761315525684",
+    "name": "_widget_1761313993975",
+    "type": "_widget_1771864482714",
+    "skuQuantity": "_widget_1771864482716",
+    "area": "_widget_1771864482712",
+    "size": "_widget_1771864482718",
+    "remark": "_widget_1691320498349",
+    "operationTime": "_widget_1737180773935",
+    "operator": "_widget_1737180773934",
+    "disabled": "_widget_1737272579786",
+    "defaultSubformSize": "_widget_1759760783235",
+    "serviceSiteId": "_widget_1694692461363",
+    "creatorDept": "_widget_1700102065912",
+    "legacyType": "_widget_1761571997913"
+  },
+  "defaults": {
+    "serviceSite": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+    "serviceSiteId": "SIT-003",
+    "creatorDepartments": [
+      9,
+      45
+    ],
+    "remark": "",
+    "disabledValues": [],
+    "defaultSubformSize": 1,
+    "legacyType": "Basket(篮筐)"
+  },
+  "ui": {
+    "batchCountDefault": 1,
+    "maxCreateCount": 100,
+    "optionFetchMaxRecords": 300
+  },
+  "label": {
+    "title": "Container Label / 容器标签",
+    "widthMm": 210.0,
+    "heightMm": 148.0,
+    "dpi": 300,
+    "orientation": "Horizontal",
+    "templatePdf": "Template.pdf"
+  },
+  "options": {
+    "type": [
+      "Return.退货",
+      "Inbound.备货",
+      "Outbound.发货"
+    ],
+    "skuQuantity": [
+      "Single.单个"
+    ],
+    "area": [
+      "2"
+    ],
+    "size": [
+      "L25",
+      "L50",
+      "L120"
+    ]
+  },
+  "output": {
+    "outputDir": "output",
+    "cacheFile": "cache.json",
+    "printSettingsFile": "print_settings.json"
+  }
+}

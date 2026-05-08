@@ -1,0 +1,28 @@
+{
+  "lastSelection": {
+    "type": "Return.退货",
+    "skuQuantity": "Single.单个",
+    "area": "2",
+    "size": "L25",
+    "batchCount": 1,
+    "autoPrint": true
+  },
+  "options": {
+    "type": [
+      "Return.退货",
+      "Inbound.备货",
+      "Outbound.发货"
+    ],
+    "skuQuantity": [
+      "Single.单个"
+    ],
+    "area": [
+      "2"
+    ],
+    "size": [
+      "L25",
+      "L50",
+      "L120"
+    ]
+  }
+}
