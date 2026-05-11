@@ -307,6 +307,7 @@ def load_runtime_config(config_path: Path) -> dict[str, Any]:
     runtime["app_id"] = raw["api"]["appId"]
     runtime["entry_id"] = raw["api"]["entryId"]
     runtime["create_url"] = raw["api"]["baseUrl"].rstrip("/") + "/app/entry/data/create"
+    runtime["get_url"] = raw["api"]["baseUrl"].rstrip("/") + "/app/entry/data/get"
     runtime["list_url"] = raw["api"]["baseUrl"].rstrip("/") + "/app/entry/data/list"
     runtime["output_dir"].mkdir(parents=True, exist_ok=True)
     return runtime
@@ -433,25 +434,12 @@ def fetch_record_by_id(config: dict[str, Any], data_id: str) -> dict[str, Any]:
     payload = {
         "app_id": config["app_id"],
         "entry_id": config["entry_id"],
-        "limit": 1,
-        "filter": {
-            "rel": "and",
-            "cond": [
-                {
-                    "field": "data_id",
-                    "type": "dataid",
-                    "method": "equal",
-                    "value": data_id,
-                }
-            ],
-        },
+        "data_id": data_id,
     }
-    result = post_json_with_retry(config, config["list_url"], payload)
+    result = post_json_with_retry(config, config["get_url"], payload)
     data = result.get("data")
-    if isinstance(data, list) and data:
-        item = data[0]
-        if isinstance(item, dict):
-            return item
+    if isinstance(data, dict):
+        return data
     return {"_id": data_id}
 
 
@@ -482,26 +470,30 @@ def build_user_value(config: dict[str, Any]) -> dict[str, str]:
     return {"username": normalize_text(config["api"]["creatorUsername"])}
 
 
+def field_input(value: Any) -> dict[str, Any]:
+    return {"value": value}
+
+
 def build_record_payload(config: dict[str, Any], selection: dict[str, str]) -> dict[str, Any]:
     fields = config["fields"]
     defaults = config["defaults"]
     code = build_code(selection)
     return {
-        fields["serviceSite"]: defaults["serviceSite"],
-        fields["serviceSiteId"]: defaults["serviceSiteId"],
-        fields["code"]: code,
-        fields["type"]: selection["type"],
-        fields["skuQuantity"]: selection["skuQuantity"],
-        fields["area"]: selection["area"],
-        fields["size"]: selection["size"],
-        fields["remark"]: defaults.get("remark", ""),
-        fields["operationTime"]: utc_timestamp(),
-        fields["operator"]: build_user_value(config),
-        fields["createBy"]: build_user_value(config),
-        fields["creatorDept"]: list(defaults.get("creatorDepartments", [])),
-        fields["disabled"]: list(defaults.get("disabledValues", [])),
-        fields["defaultSubformSize"]: int(defaults.get("defaultSubformSize", 1)),
-        fields["legacyType"]: defaults.get("legacyType", "Basket(篮筐)"),
+        fields["serviceSite"]: field_input(defaults["serviceSite"]),
+        fields["serviceSiteId"]: field_input(defaults["serviceSiteId"]),
+        fields["code"]: field_input(code),
+        fields["type"]: field_input(selection["type"]),
+        fields["skuQuantity"]: field_input(selection["skuQuantity"]),
+        fields["area"]: field_input(selection["area"]),
+        fields["size"]: field_input(selection["size"]),
+        fields["remark"]: field_input(defaults.get("remark", "")),
+        fields["operationTime"]: field_input(utc_timestamp()),
+        fields["operator"]: field_input(normalize_text(config["api"]["creatorUsername"])),
+        fields["createBy"]: field_input(normalize_text(config["api"]["creatorUsername"])),
+        fields["creatorDept"]: field_input(list(defaults.get("creatorDepartments", []))),
+        fields["disabled"]: field_input(list(defaults.get("disabledValues", []))),
+        fields["defaultSubformSize"]: field_input(int(defaults.get("defaultSubformSize", 1))),
+        fields["legacyType"]: field_input(defaults.get("legacyType", "Basket(篮筐)")),
     }
 
 
@@ -513,6 +505,7 @@ def create_records(config: dict[str, Any], selection: dict[str, str], count: int
         payload = {
             "app_id": config["app_id"],
             "entry_id": config["entry_id"],
+            "data_creator": normalize_text(config["api"].get("creatorUsername")),
             "data": build_record_payload(config, selection),
             "is_start_workflow": bool(config["api"].get("isStartWorkflow", False)),
             "is_start_trigger": bool(config["api"].get("isStartTrigger", True)),
@@ -551,7 +544,7 @@ def fetch_distinct_options(config: dict[str, Any]) -> dict[str, list[str]]:
     return {field_name: unique_strings(values) for field_name, values in distinct.items()}
 
 
-def render_code128_barcode(value: str, width: int, height: int) -> Image.Image:
+def render_code128_barcode(value: str, width: int, height: int, quiet_modules: int = 12) -> Image.Image:
     encoded = normalize_text(value).upper()
     unsupported = sorted({char for char in encoded if not 32 <= ord(char) <= 127})
     if unsupported:
@@ -564,7 +557,6 @@ def render_code128_barcode(value: str, width: int, height: int) -> Image.Image:
         checksum += index * code_value
     code_values.append(checksum % 103)
     pattern = "".join(CARD_CODE128_PATTERNS[item] for item in code_values) + CARD_CODE128_STOP + "11"
-    quiet_modules = 12
     raw_width = len(pattern) + quiet_modules * 2
     image = Image.new("RGB", (raw_width, height), "white")
     draw = ImageDraw.Draw(image)
@@ -590,6 +582,51 @@ def scale_rect(rect: tuple[float, float, float, float], width_px: int, height_px
         int(round(y0 / TEMPLATE_BASE_HEIGHT_PT * height_px)),
         int(round(x1 / TEMPLATE_BASE_WIDTH_PT * width_px)),
         int(round(y1 / TEMPLATE_BASE_HEIGHT_PT * height_px)),
+    )
+
+
+def _resolve_template_source(config: dict[str, Any]) -> Path:
+    reference_path = config["base_dir"] / "1.pdf"
+    if reference_path.exists():
+        return reference_path
+    return ensure_template_pdf(config)
+
+
+def _load_template_page_image(config: dict[str, Any], dpi: int) -> tuple[Image.Image, float, float, tuple[float, float, float, float]]:
+    if fitz is None:
+        raise RuntimeError("Missing dependency 'PyMuPDF'.")
+
+    template_path = _resolve_template_source(config)
+    document = fitz.open(str(template_path))
+    try:
+        if document.page_count < 1:
+            raise RuntimeError(f"Template PDF has no pages: {template_path}")
+        page = document[0]
+        page_width_pt = float(page.rect.width)
+        page_height_pt = float(page.rect.height)
+        matrix = fitz.Matrix(max(1.0, dpi / 72.0), max(1.0, dpi / 72.0))
+        pixmap = page.get_pixmap(matrix=matrix, alpha=False)
+        image = Image.open(BytesIO(pixmap.tobytes("png"))).convert("RGB")
+
+        barcode_rect_pt = (108.58, 85.42, 476.86, 145.42)
+        images = page.get_images(full=True)
+        if images:
+            rects = page.get_image_rects(images[0][0])
+            if rects:
+                rect = rects[0]
+                barcode_rect_pt = (float(rect.x0), float(rect.y0), float(rect.x1), float(rect.y1))
+        return image, page_width_pt, page_height_pt, barcode_rect_pt
+    finally:
+        document.close()
+
+
+def _scale_rect_for_page(rect: tuple[float, float, float, float], width_px: int, height_px: int, page_width_pt: float, page_height_pt: float) -> tuple[int, int, int, int]:
+    x0, y0, x1, y1 = rect
+    return (
+        int(round(x0 / page_width_pt * width_px)),
+        int(round(y0 / page_height_pt * height_px)),
+        int(round(x1 / page_width_pt * width_px)),
+        int(round(y1 / page_height_pt * height_px)),
     )
 
 
@@ -653,21 +690,18 @@ def ensure_template_pdf(config: dict[str, Any]) -> Path:
 def render_label_pdf(record: dict[str, Any], config: dict[str, Any], output_path: Path) -> Path:
     if fitz is None:
         raise RuntimeError("Missing dependency 'PyMuPDF'. Install it with: pip install -r requirements.txt")
-    ensure_template_pdf(config)
-
     dpi = int(config["label"].get("dpi", 300))
-    width_px = mm_to_px(float(config["label"]["widthMm"]), dpi)
-    height_px = mm_to_px(float(config["label"]["heightMm"]), dpi)
-    image = build_template_image(config)
+    image, page_width_pt, page_height_pt, barcode_rect_pt = _load_template_page_image(config, dpi)
+    width_px, height_px = image.size
     draw = ImageDraw.Draw(image)
     black = (0, 0, 0)
 
-    code_rect = scale_rect((166.35, 166.42, 478.35, 217.8), width_px, height_px)
-    type_rect = scale_rect((171.97, 281.52, 285.0, 304.5), width_px, height_px)
-    sku_rect = scale_rect((425.1, 281.52, 532.0, 304.5), width_px, height_px)
-    area_rect = scale_rect((188.0, 334.8, 255.0, 388.0), width_px, height_px)
-    size_rect = scale_rect((428.0, 334.8, 520.0, 388.0), width_px, height_px)
-    barcode_rect = scale_rect((105.0, 73.0, 483.0, 146.0), width_px, height_px)
+    code_rect = _scale_rect_for_page((166.35, 166.42, 478.35, 217.8), width_px, height_px, page_width_pt, page_height_pt)
+    type_rect = _scale_rect_for_page((171.97, 281.52, 285.0, 304.5), width_px, height_px, page_width_pt, page_height_pt)
+    sku_rect = _scale_rect_for_page((425.1, 281.52, 532.0, 304.5), width_px, height_px, page_width_pt, page_height_pt)
+    area_rect = _scale_rect_for_page((188.0, 334.8, 255.0, 388.0), width_px, height_px, page_width_pt, page_height_pt)
+    size_rect = _scale_rect_for_page((428.0, 334.8, 520.0, 388.0), width_px, height_px, page_width_pt, page_height_pt)
+    barcode_rect = _scale_rect_for_page(barcode_rect_pt, width_px, height_px, page_width_pt, page_height_pt)
 
     code_value = record_value(record, config["fields"]["code"]) or record_value(record, config["fields"]["trackingNumber"]) or normalize_text(record.get("_id"))
     type_value = record_value(record, config["fields"]["type"])
@@ -675,7 +709,25 @@ def render_label_pdf(record: dict[str, Any], config: dict[str, Any], output_path
     area_value = record_value(record, config["fields"]["area"])
     size_value = record_value(record, config["fields"]["size"])
 
-    barcode_image = render_code128_barcode(code_value, barcode_rect[2] - barcode_rect[0], barcode_rect[3] - barcode_rect[1])
+    cover_rects = [barcode_rect, code_rect, type_rect, sku_rect, area_rect, size_rect]
+    cover_margin = max(4, dpi // 150)
+    for rect in cover_rects:
+        draw.rectangle(
+            (
+                max(0, rect[0] - cover_margin),
+                max(0, rect[1] - cover_margin),
+                min(width_px, rect[2] + cover_margin),
+                min(height_px, rect[3] + cover_margin),
+            ),
+            fill="white",
+        )
+
+    barcode_image = render_code128_barcode(
+        code_value,
+        barcode_rect[2] - barcode_rect[0],
+        barcode_rect[3] - barcode_rect[1],
+        quiet_modules=0,
+    )
     image.paste(barcode_image, (barcode_rect[0], barcode_rect[1]))
 
     code_font = load_font(pt_to_px(48, dpi), family="simsun")
@@ -704,8 +756,8 @@ def render_label_pdf(record: dict[str, Any], config: dict[str, Any], output_path
     buffer = BytesIO()
     image.save(buffer, format="PNG")
     document = fitz.open()
-    page = document.new_page(width=TEMPLATE_BASE_WIDTH_PT, height=TEMPLATE_BASE_HEIGHT_PT)
-    page.insert_image(fitz.Rect(0, 0, TEMPLATE_BASE_WIDTH_PT, TEMPLATE_BASE_HEIGHT_PT), stream=buffer.getvalue(), keep_proportion=False)
+    page = document.new_page(width=page_width_pt, height=page_height_pt)
+    page.insert_image(fitz.Rect(0, 0, page_width_pt, page_height_pt), stream=buffer.getvalue(), keep_proportion=False)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     document.save(str(output_path))
     document.close()

@@ -3,8 +3,8 @@
     "type": "Return.退货",
     "skuQuantity": "Single.单个",
     "area": "2",
-    "size": "L25",
-    "batchCount": 1,
+    "size": "L50",
+    "batchCount": 2,
     "autoPrint": true
   },
   "options": {

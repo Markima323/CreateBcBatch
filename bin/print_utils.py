@@ -11,11 +11,13 @@ except ImportError:
 
 try:
     import win32con
+    import win32gui
     import win32print
     import win32ui
     from PIL import Image, ImageWin
 except ImportError:
     win32con = None
+    win32gui = None
     win32print = None
     win32ui = None
     Image = None
@@ -57,6 +59,31 @@ def match_printer(printers: list[dict[str, str]], saved_name: str) -> str:
     return ""
 
 
+def _create_printer_dc(printer_name: str, width_mm: float, height_mm: float, orientation: str) -> Any:
+    _require_windows_printing()
+    if win32gui is None:
+        raise RuntimeError("Missing Windows GUI printing dependencies. Install pywin32.")
+
+    horizontal = normalize_text(orientation).lower().startswith("h")
+    handle = win32print.OpenPrinter(printer_name)
+    try:
+        info = win32print.GetPrinter(handle, 2)
+        devmode = info["pDevMode"]
+        devmode.Orientation = win32con.DMORIENT_LANDSCAPE if horizontal else win32con.DMORIENT_PORTRAIT
+        devmode.Fields |= win32con.DM_ORIENTATION
+
+        long_edge = max(float(width_mm), float(height_mm))
+        short_edge = min(float(width_mm), float(height_mm))
+        if abs(long_edge - 210.0) <= 1.0 and abs(short_edge - 148.0) <= 1.0:
+            devmode.PaperSize = win32con.DMPAPER_A5
+            devmode.Fields |= win32con.DM_PAPERSIZE
+
+        dc_handle = win32gui.CreateDC("WINSPOOL", printer_name, devmode)
+        return win32ui.CreateDCFromHandle(dc_handle)
+    finally:
+        win32print.ClosePrinter(handle)
+
+
 def print_png(image_path: Path, printer_name: str, width_mm: float, height_mm: float, orientation: str) -> None:
     _require_windows_printing()
     image = Image.open(image_path).convert("RGB")
@@ -66,8 +93,7 @@ def print_png(image_path: Path, printer_name: str, width_mm: float, height_mm: f
     if not horizontal and image.width > image.height:
         image = image.rotate(90, expand=True)
 
-    dc = win32ui.CreateDC()
-    dc.CreatePrinterDC(printer_name)
+    dc = _create_printer_dc(printer_name, width_mm, height_mm, orientation)
     try:
         printable_width = dc.GetDeviceCaps(win32con.HORZRES)
         printable_height = dc.GetDeviceCaps(win32con.VERTRES)
