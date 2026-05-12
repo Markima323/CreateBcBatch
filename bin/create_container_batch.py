@@ -711,7 +711,7 @@ def ensure_template_pdf(config: dict[str, Any]) -> Path:
     return template_path
 
 
-def render_label_pdf(record: dict[str, Any], config: dict[str, Any], output_path: Path) -> Path:
+def render_label_page(record: dict[str, Any], config: dict[str, Any]) -> tuple[Image.Image, float, float]:
     if fitz is None:
         raise RuntimeError("Missing dependency 'PyMuPDF'. Install it with: pip install -r requirements.txt")
     dpi = int(config["label"].get("dpi", 300))
@@ -776,6 +776,11 @@ def render_label_pdf(record: dict[str, Any], config: dict[str, Any], output_path
     draw_left(sku_rect, sku_value, small_font)
     draw_centered(area_rect, area_value, large_font)
     draw_centered(size_rect, size_value, large_font)
+    return image, page_width_pt, page_height_pt
+
+
+def render_label_pdf(record: dict[str, Any], config: dict[str, Any], output_path: Path) -> Path:
+    image, page_width_pt, page_height_pt = render_label_page(record, config)
 
     buffer = BytesIO()
     image.save(buffer, format="PNG")
@@ -786,6 +791,28 @@ def render_label_pdf(record: dict[str, Any], config: dict[str, Any], output_path
     document.save(str(output_path))
     document.close()
     return output_path
+
+
+def render_batch_labels_pdf(records: list[dict[str, Any]], config: dict[str, Any], output_path: Path) -> Path:
+    if fitz is None:
+        raise RuntimeError("Missing dependency 'PyMuPDF'. Install it with: pip install -r requirements.txt")
+    if not records:
+        raise RuntimeError("No records were provided for label generation.")
+
+    document = fitz.open()
+    try:
+        for record in records:
+            image, page_width_pt, page_height_pt = render_label_page(record, config)
+            buffer = BytesIO()
+            image.save(buffer, format="PNG")
+            page = document.new_page(width=page_width_pt, height=page_height_pt)
+            page.insert_image(fitz.Rect(0, 0, page_width_pt, page_height_pt), stream=buffer.getvalue(), keep_proportion=False)
+
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        document.save(str(output_path))
+        return output_path
+    finally:
+        document.close()
 
 
 def create_batch_output_dir(output_dir: Path) -> Path:
@@ -799,6 +826,23 @@ def build_pdf_label_filename(index: int, record: dict[str, Any], config: dict[st
     primary = record_value(record, config["fields"]["code"]) or record_value(record, config["fields"]["trackingNumber"]) or normalize_text(record.get("_id"))
     secondary = record_value(record, config["fields"]["size"]) or f"label_{index:03d}"
     return f"{index:03d}_{safe_filename_stem(primary)}_{safe_filename_stem(secondary)}.pdf"
+
+
+def build_batch_pdf_filename(records: list[dict[str, Any]], config: dict[str, Any]) -> str:
+    count = len(records)
+    first_code = ""
+    last_code = ""
+    if records:
+        first_code = record_value(records[0], config["fields"]["code"]) or record_value(records[0], config["fields"]["trackingNumber"]) or normalize_text(records[0].get("_id"))
+        last_code = record_value(records[-1], config["fields"]["code"]) or record_value(records[-1], config["fields"]["trackingNumber"]) or normalize_text(records[-1].get("_id"))
+
+    if count == 1:
+        stem = safe_filename_stem(first_code or "label")
+        return f"{stem}.pdf"
+
+    first_stem = safe_filename_stem(first_code or "first")
+    last_stem = safe_filename_stem(last_code or "last")
+    return f"labels_{count:03d}_{first_stem}_to_{last_stem}.pdf"
 
 
 def write_result_json(batch_dir: Path, payload: dict[str, Any]) -> Path:
@@ -1049,10 +1093,12 @@ class ContainerBatchApp:
             created_records = list(create_result["records"])
             batch_dir = create_batch_output_dir(self.config["output_dir"])
             labels_dir = batch_dir / "labels"
-            label_paths: list[Path] = []
-            for index, record in enumerate(created_records, start=1):
-                filename = build_pdf_label_filename(index, record, self.config)
-                label_paths.append(render_label_pdf(record, self.config, labels_dir / filename))
+            batch_label_path = render_batch_labels_pdf(
+                created_records,
+                self.config,
+                labels_dir / build_batch_pdf_filename(created_records, self.config),
+            )
+            label_paths: list[Path] = [batch_label_path]
 
             result_path = write_result_json(
                 batch_dir,
@@ -1111,6 +1157,7 @@ class ContainerBatchApp:
             self.append_log(f"Label: {path}")
         if len(label_paths) > 10:
             self.append_log(f"...and {len(label_paths) - 10} more labels.")
+        self.append_log(f"Total label pages: {len(records)}")
         if print_errors:
             self.set_status(f"Create completed with {len(print_errors)} print error(s).")
             self.append_log("\n".join(print_errors[:8]))
