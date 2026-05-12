@@ -189,6 +189,28 @@ def utc_timestamp() -> str:
     return dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
+def cleanup_generated_pdfs(config: dict[str, Any]) -> None:
+    keep_paths = {
+        config["label_template_path"].resolve(),
+        (config["base_dir"] / "1.pdf").resolve(),
+    }
+
+    for pdf_path in config["output_dir"].rglob("*.pdf"):
+        try:
+            pdf_path.unlink()
+        except OSError:
+            continue
+
+    for pdf_path in config["base_dir"].glob("*.pdf"):
+        resolved = pdf_path.resolve()
+        if resolved in keep_paths:
+            continue
+        try:
+            pdf_path.unlink()
+        except OSError:
+            continue
+
+
 def mm_to_px(mm: float, dpi: int) -> int:
     return max(1, int(round(mm * dpi / 25.4)))
 
@@ -478,7 +500,9 @@ def build_record_payload(config: dict[str, Any], selection: dict[str, str]) -> d
     fields = config["fields"]
     defaults = config["defaults"]
     code = build_code(selection)
+    submit_time = utc_timestamp()
     return {
+        fields["createDate"]: field_input(submit_time),
         fields["serviceSite"]: field_input(defaults["serviceSite"]),
         fields["serviceSiteId"]: field_input(defaults["serviceSiteId"]),
         fields["code"]: field_input(code),
@@ -487,7 +511,7 @@ def build_record_payload(config: dict[str, Any], selection: dict[str, str]) -> d
         fields["area"]: field_input(selection["area"]),
         fields["size"]: field_input(selection["size"]),
         fields["remark"]: field_input(defaults.get("remark", "")),
-        fields["operationTime"]: field_input(utc_timestamp()),
+        fields["operationTime"]: field_input(submit_time),
         fields["operator"]: field_input(normalize_text(config["api"]["creatorUsername"])),
         fields["createBy"]: field_input(normalize_text(config["api"]["creatorUsername"])),
         fields["creatorDept"]: field_input(list(defaults.get("creatorDepartments", []))),
@@ -1130,6 +1154,7 @@ def main() -> int:
         print(json.dumps(payload, ensure_ascii=False, indent=2))
         return 0
 
+    cleanup_generated_pdfs(config)
     root = tk.Tk()
     style = ttk.Style(root)
     if "vista" in style.theme_names():

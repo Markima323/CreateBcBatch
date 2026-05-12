@@ -1,0 +1,5083 @@
+{
+  "selection": {
+    "type": "Return.退货",
+    "skuQuantity": "Single.单个",
+    "area": "2",
+    "size": "L50"
+  },
+  "requested_count": 20,
+  "create_result": {
+    "mode": "single_create_with_trigger",
+    "success_ids": [
+      "6a01ba6422c7c7178db1e07f",
+      "6a01ba7e3528175a0748588c",
+      "6a01ba841a4dc4b205484724",
+      "6a01ba8b1fcf7fb9b48790f3",
+      "6a01ba926d1de612d2c0f0be",
+      "6a01ba9a1251d1295d345ed3",
+      "6a01ba9d22c7c7178db216a4",
+      "6a01baa9eed4ffe0237ba193",
+      "6a01baaf4d016923850c9b04",
+      "6a01bab439e118a338c22f77",
+      "6a01bad02aa0b8439df8e73a",
+      "6a01bad5fa94ffee61d1c01b",
+      "6a01bad85a50928a5ed65b13",
+      "6a01badcfe461dd49f58cf90",
+      "6a01bae09b2e53c2e4bd2d81",
+      "6a01bae6dc7450c5453fbc83",
+      "6a01bae91f559b0c0bfaafde",
+      "6a01baed9692d1d45533e28f",
+      "6a01baf016e956e8eb064b2c",
+      "6a01baf520b8af4719ea5e5d"
+    ],
+    "created_items": [
+      {
+        "data": {
+          "_id": "6a01ba6422c7c7178db1e07f",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:15:48.459Z",
+          "updateTime": "2026-05-11T11:15:48.459Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100022",
+          "_widget_1691050278796": "2026-05-11T11:15:49.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-8BB344",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:15:49.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01ba7e3528175a0748588c",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:16:14.539Z",
+          "updateTime": "2026-05-11T11:16:14.539Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100023",
+          "_widget_1691050278796": "2026-05-11T11:16:14.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-542990",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:16:14.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01ba841a4dc4b205484724",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:16:20.606Z",
+          "updateTime": "2026-05-11T11:16:20.606Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100024",
+          "_widget_1691050278796": "2026-05-11T11:16:21.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-229393",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:16:21.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01ba8b1fcf7fb9b48790f3",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:16:27.277Z",
+          "updateTime": "2026-05-11T11:16:27.277Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100025",
+          "_widget_1691050278796": "2026-05-11T11:16:27.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-02F105",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:16:27.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01ba926d1de612d2c0f0be",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:16:34.958Z",
+          "updateTime": "2026-05-11T11:16:34.958Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100026",
+          "_widget_1691050278796": "2026-05-11T11:16:32.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-4B5290",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:16:32.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01ba9a1251d1295d345ed3",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:16:42.622Z",
+          "updateTime": "2026-05-11T11:16:42.622Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100027",
+          "_widget_1691050278796": "2026-05-11T11:16:43.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-D2CA02",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:16:43.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01ba9d22c7c7178db216a4",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:16:45.127Z",
+          "updateTime": "2026-05-11T11:16:45.127Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100028",
+          "_widget_1691050278796": "2026-05-11T11:16:46.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-582412",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:16:46.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01baa9eed4ffe0237ba193",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:16:57.968Z",
+          "updateTime": "2026-05-11T11:16:57.968Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100029",
+          "_widget_1691050278796": "2026-05-11T11:16:54.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-0D9EA1",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:16:54.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01baaf4d016923850c9b04",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:17:03.038Z",
+          "updateTime": "2026-05-11T11:17:03.038Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100030",
+          "_widget_1691050278796": "2026-05-11T11:17:04.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-CDBDD1",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:17:04.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01bab439e118a338c22f77",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:17:08.210Z",
+          "updateTime": "2026-05-11T11:17:08.210Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100031",
+          "_widget_1691050278796": "2026-05-11T11:17:07.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-2AC9A0",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:17:07.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01bad02aa0b8439df8e73a",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:17:36.812Z",
+          "updateTime": "2026-05-11T11:17:36.812Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100032",
+          "_widget_1691050278796": "2026-05-11T11:17:37.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-C67B91",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:17:37.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01bad5fa94ffee61d1c01b",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:17:41.107Z",
+          "updateTime": "2026-05-11T11:17:41.107Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100033",
+          "_widget_1691050278796": "2026-05-11T11:17:42.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-BA6554",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:17:42.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01bad85a50928a5ed65b13",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:17:44.164Z",
+          "updateTime": "2026-05-11T11:17:44.164Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100034",
+          "_widget_1691050278796": "2026-05-11T11:17:45.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-BC2A86",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:17:45.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01badcfe461dd49f58cf90",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:17:48.283Z",
+          "updateTime": "2026-05-11T11:17:48.283Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100035",
+          "_widget_1691050278796": "2026-05-11T11:17:49.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-25736D",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:17:49.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01bae09b2e53c2e4bd2d81",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:17:52.894Z",
+          "updateTime": "2026-05-11T11:17:52.894Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100036",
+          "_widget_1691050278796": "2026-05-11T11:17:53.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-DF6809",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:17:53.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01bae6dc7450c5453fbc83",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:17:58.462Z",
+          "updateTime": "2026-05-11T11:17:58.462Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100037",
+          "_widget_1691050278796": "2026-05-11T11:18:00.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-D9A27D",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:18:00.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01bae91f559b0c0bfaafde",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:18:01.817Z",
+          "updateTime": "2026-05-11T11:18:01.817Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100038",
+          "_widget_1691050278796": "2026-05-11T11:18:03.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-77087F",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:18:03.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01baed9692d1d45533e28f",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:18:05.320Z",
+          "updateTime": "2026-05-11T11:18:05.320Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100039",
+          "_widget_1691050278796": "2026-05-11T11:18:06.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-3B48B8",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:18:06.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01baf016e956e8eb064b2c",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:18:08.022Z",
+          "updateTime": "2026-05-11T11:18:08.022Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100040",
+          "_widget_1691050278796": "2026-05-11T11:18:09.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-C9998E",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:18:09.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      },
+      {
+        "data": {
+          "_id": "6a01baf520b8af4719ea5e5d",
+          "creator": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "updater": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "deleter": null,
+          "ext": "",
+          "createTime": "2026-05-11T11:18:13.169Z",
+          "updateTime": "2026-05-11T11:18:13.169Z",
+          "deleteTime": null,
+          "flowState": null,
+          "_widget_1691049723447": "CON-CRE-26051100041",
+          "_widget_1691050278796": "2026-05-11T11:18:13.000Z",
+          "_widget_1691050278797": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+          "_widget_1761315525684": "BC-RS2-F80BCC",
+          "_widget_1761313993975": "",
+          "_widget_1771864482714": "Return.退货",
+          "_widget_1771864482716": "Single.单个",
+          "_widget_1771864482712": "2",
+          "_widget_1771864482718": "L50",
+          "_widget_1691320498349": "",
+          "_widget_1737180773935": "2026-05-11T11:18:13.000Z",
+          "_widget_1737180773934": {
+            "name": "James.Zhan",
+            "username": "jdy-zz3xu7hvdegg",
+            "status": 1,
+            "type": 0,
+            "departments": [
+              9,
+              45
+            ]
+          },
+          "_widget_1737272579786": [],
+          "_widget_1759760783235": 1,
+          "_widget_1694692461363": "SIT-003",
+          "_widget_1700102065912": [
+            {
+              "name": "欧洲部",
+              "dept_no": 9,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            },
+            {
+              "name": "Vitech-德国-法兰克福",
+              "dept_no": 45,
+              "type": 0,
+              "parent_no": 1,
+              "status": 1
+            }
+          ],
+          "_widget_1761571997913": "Basket(篮筐)",
+          "_widget_1761313993976": null,
+          "appId": "64d8fa5ab564650008a20bd4",
+          "entryId": "68fb8497d947258745cc9ba7"
+        }
+      }
+    ],
+    "records": [
+      {
+        "_id": "6a01ba6422c7c7178db1e07f",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:15:48.459Z",
+        "updateTime": "2026-05-11T11:15:48.459Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100022",
+        "_widget_1691050278796": "2026-05-11T11:15:49.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-8BB344",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:15:49.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01ba7e3528175a0748588c",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:16:14.539Z",
+        "updateTime": "2026-05-11T11:16:14.539Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100023",
+        "_widget_1691050278796": "2026-05-11T11:16:14.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-542990",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:16:14.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01ba841a4dc4b205484724",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:16:20.606Z",
+        "updateTime": "2026-05-11T11:16:20.606Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100024",
+        "_widget_1691050278796": "2026-05-11T11:16:21.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-229393",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:16:21.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01ba8b1fcf7fb9b48790f3",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:16:27.277Z",
+        "updateTime": "2026-05-11T11:16:27.277Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100025",
+        "_widget_1691050278796": "2026-05-11T11:16:27.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-02F105",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:16:27.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01ba926d1de612d2c0f0be",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:16:34.958Z",
+        "updateTime": "2026-05-11T11:16:34.958Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100026",
+        "_widget_1691050278796": "2026-05-11T11:16:32.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-4B5290",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:16:32.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01ba9a1251d1295d345ed3",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:16:42.622Z",
+        "updateTime": "2026-05-11T11:16:42.622Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100027",
+        "_widget_1691050278796": "2026-05-11T11:16:43.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-D2CA02",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:16:43.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01ba9d22c7c7178db216a4",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:16:45.127Z",
+        "updateTime": "2026-05-11T11:16:45.127Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100028",
+        "_widget_1691050278796": "2026-05-11T11:16:46.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-582412",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:16:46.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01baa9eed4ffe0237ba193",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:16:57.968Z",
+        "updateTime": "2026-05-11T11:16:57.968Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100029",
+        "_widget_1691050278796": "2026-05-11T11:16:54.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-0D9EA1",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:16:54.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01baaf4d016923850c9b04",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:17:03.038Z",
+        "updateTime": "2026-05-11T11:17:03.038Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100030",
+        "_widget_1691050278796": "2026-05-11T11:17:04.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-CDBDD1",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:17:04.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01bab439e118a338c22f77",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:17:08.210Z",
+        "updateTime": "2026-05-11T11:17:08.210Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100031",
+        "_widget_1691050278796": "2026-05-11T11:17:07.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-2AC9A0",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:17:07.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01bad02aa0b8439df8e73a",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:17:36.812Z",
+        "updateTime": "2026-05-11T11:17:36.812Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100032",
+        "_widget_1691050278796": "2026-05-11T11:17:37.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-C67B91",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:17:37.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01bad5fa94ffee61d1c01b",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:17:41.107Z",
+        "updateTime": "2026-05-11T11:17:41.107Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100033",
+        "_widget_1691050278796": "2026-05-11T11:17:42.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-BA6554",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:17:42.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01bad85a50928a5ed65b13",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:17:44.164Z",
+        "updateTime": "2026-05-11T11:17:44.164Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100034",
+        "_widget_1691050278796": "2026-05-11T11:17:45.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-BC2A86",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:17:45.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01badcfe461dd49f58cf90",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:17:48.283Z",
+        "updateTime": "2026-05-11T11:17:48.283Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100035",
+        "_widget_1691050278796": "2026-05-11T11:17:49.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-25736D",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:17:49.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01bae09b2e53c2e4bd2d81",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:17:52.894Z",
+        "updateTime": "2026-05-11T11:17:52.894Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100036",
+        "_widget_1691050278796": "2026-05-11T11:17:53.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-DF6809",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:17:53.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01bae6dc7450c5453fbc83",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:17:58.462Z",
+        "updateTime": "2026-05-11T11:17:58.462Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100037",
+        "_widget_1691050278796": "2026-05-11T11:18:00.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-D9A27D",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:18:00.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01bae91f559b0c0bfaafde",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:18:01.817Z",
+        "updateTime": "2026-05-11T11:18:01.817Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100038",
+        "_widget_1691050278796": "2026-05-11T11:18:03.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-77087F",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:18:03.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01baed9692d1d45533e28f",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:18:05.320Z",
+        "updateTime": "2026-05-11T11:18:05.320Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100039",
+        "_widget_1691050278796": "2026-05-11T11:18:06.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-3B48B8",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:18:06.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01baf016e956e8eb064b2c",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:18:08.022Z",
+        "updateTime": "2026-05-11T11:18:08.022Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100040",
+        "_widget_1691050278796": "2026-05-11T11:18:09.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-C9998E",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:18:09.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      },
+      {
+        "_id": "6a01baf520b8af4719ea5e5d",
+        "creator": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "updater": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "deleter": null,
+        "ext": "",
+        "createTime": "2026-05-11T11:18:13.169Z",
+        "updateTime": "2026-05-11T11:18:13.169Z",
+        "deleteTime": null,
+        "flowState": null,
+        "_widget_1691049723447": "CON-CRE-26051100041",
+        "_widget_1691050278796": "2026-05-11T11:18:13.000Z",
+        "_widget_1691050278797": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+        "_widget_1761315525684": "BC-RS2-F80BCC",
+        "_widget_1761313993975": "",
+        "_widget_1771864482714": "Return.退货",
+        "_widget_1771864482716": "Single.单个",
+        "_widget_1771864482712": "2",
+        "_widget_1771864482718": "L50",
+        "_widget_1691320498349": "",
+        "_widget_1737180773935": "2026-05-11T11:18:13.000Z",
+        "_widget_1737180773934": {
+          "name": "James.Zhan",
+          "username": "jdy-zz3xu7hvdegg",
+          "status": 1,
+          "type": 0,
+          "departments": [
+            9,
+            45
+          ]
+        },
+        "_widget_1737272579786": [],
+        "_widget_1759760783235": 1,
+        "_widget_1694692461363": "SIT-003",
+        "_widget_1700102065912": [
+          {
+            "name": "欧洲部",
+            "dept_no": 9,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          },
+          {
+            "name": "Vitech-德国-法兰克福",
+            "dept_no": 45,
+            "type": 0,
+            "parent_no": 1,
+            "status": 1
+          }
+        ],
+        "_widget_1761571997913": "Basket(篮筐)",
+        "_widget_1761313993976": null,
+        "appId": "64d8fa5ab564650008a20bd4",
+        "entryId": "68fb8497d947258745cc9ba7"
+      }
+    ]
+  },
+  "records": [
+    {
+      "_id": "6a01ba6422c7c7178db1e07f",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:15:48.459Z",
+      "updateTime": "2026-05-11T11:15:48.459Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100022",
+      "_widget_1691050278796": "2026-05-11T11:15:49.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-8BB344",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:15:49.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01ba7e3528175a0748588c",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:16:14.539Z",
+      "updateTime": "2026-05-11T11:16:14.539Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100023",
+      "_widget_1691050278796": "2026-05-11T11:16:14.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-542990",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:16:14.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01ba841a4dc4b205484724",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:16:20.606Z",
+      "updateTime": "2026-05-11T11:16:20.606Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100024",
+      "_widget_1691050278796": "2026-05-11T11:16:21.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-229393",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:16:21.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01ba8b1fcf7fb9b48790f3",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:16:27.277Z",
+      "updateTime": "2026-05-11T11:16:27.277Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100025",
+      "_widget_1691050278796": "2026-05-11T11:16:27.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-02F105",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:16:27.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01ba926d1de612d2c0f0be",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:16:34.958Z",
+      "updateTime": "2026-05-11T11:16:34.958Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100026",
+      "_widget_1691050278796": "2026-05-11T11:16:32.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-4B5290",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:16:32.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01ba9a1251d1295d345ed3",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:16:42.622Z",
+      "updateTime": "2026-05-11T11:16:42.622Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100027",
+      "_widget_1691050278796": "2026-05-11T11:16:43.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-D2CA02",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:16:43.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01ba9d22c7c7178db216a4",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:16:45.127Z",
+      "updateTime": "2026-05-11T11:16:45.127Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100028",
+      "_widget_1691050278796": "2026-05-11T11:16:46.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-582412",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:16:46.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01baa9eed4ffe0237ba193",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:16:57.968Z",
+      "updateTime": "2026-05-11T11:16:57.968Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100029",
+      "_widget_1691050278796": "2026-05-11T11:16:54.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-0D9EA1",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:16:54.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01baaf4d016923850c9b04",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:17:03.038Z",
+      "updateTime": "2026-05-11T11:17:03.038Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100030",
+      "_widget_1691050278796": "2026-05-11T11:17:04.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-CDBDD1",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:17:04.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01bab439e118a338c22f77",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:17:08.210Z",
+      "updateTime": "2026-05-11T11:17:08.210Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100031",
+      "_widget_1691050278796": "2026-05-11T11:17:07.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-2AC9A0",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:17:07.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01bad02aa0b8439df8e73a",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:17:36.812Z",
+      "updateTime": "2026-05-11T11:17:36.812Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100032",
+      "_widget_1691050278796": "2026-05-11T11:17:37.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-C67B91",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:17:37.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01bad5fa94ffee61d1c01b",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:17:41.107Z",
+      "updateTime": "2026-05-11T11:17:41.107Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100033",
+      "_widget_1691050278796": "2026-05-11T11:17:42.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-BA6554",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:17:42.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01bad85a50928a5ed65b13",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:17:44.164Z",
+      "updateTime": "2026-05-11T11:17:44.164Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100034",
+      "_widget_1691050278796": "2026-05-11T11:17:45.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-BC2A86",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:17:45.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01badcfe461dd49f58cf90",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:17:48.283Z",
+      "updateTime": "2026-05-11T11:17:48.283Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100035",
+      "_widget_1691050278796": "2026-05-11T11:17:49.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-25736D",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:17:49.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01bae09b2e53c2e4bd2d81",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:17:52.894Z",
+      "updateTime": "2026-05-11T11:17:52.894Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100036",
+      "_widget_1691050278796": "2026-05-11T11:17:53.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-DF6809",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:17:53.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01bae6dc7450c5453fbc83",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:17:58.462Z",
+      "updateTime": "2026-05-11T11:17:58.462Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100037",
+      "_widget_1691050278796": "2026-05-11T11:18:00.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-D9A27D",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:18:00.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01bae91f559b0c0bfaafde",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:18:01.817Z",
+      "updateTime": "2026-05-11T11:18:01.817Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100038",
+      "_widget_1691050278796": "2026-05-11T11:18:03.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-77087F",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:18:03.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01baed9692d1d45533e28f",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:18:05.320Z",
+      "updateTime": "2026-05-11T11:18:05.320Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100039",
+      "_widget_1691050278796": "2026-05-11T11:18:06.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-3B48B8",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:18:06.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01baf016e956e8eb064b2c",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:18:08.022Z",
+      "updateTime": "2026-05-11T11:18:08.022Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100040",
+      "_widget_1691050278796": "2026-05-11T11:18:09.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-C9998E",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:18:09.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    },
+    {
+      "_id": "6a01baf520b8af4719ea5e5d",
+      "creator": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "updater": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "deleter": null,
+      "ext": "",
+      "createTime": "2026-05-11T11:18:13.169Z",
+      "updateTime": "2026-05-11T11:18:13.169Z",
+      "deleteTime": null,
+      "flowState": null,
+      "_widget_1691049723447": "CON-CRE-26051100041",
+      "_widget_1691050278796": "2026-05-11T11:18:13.000Z",
+      "_widget_1691050278797": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1701742421216": "Fulfillment Service Center No.3 - Frankfurt(德国法兰克福支持中心3号)",
+      "_widget_1761315525684": "BC-RS2-F80BCC",
+      "_widget_1761313993975": "",
+      "_widget_1771864482714": "Return.退货",
+      "_widget_1771864482716": "Single.单个",
+      "_widget_1771864482712": "2",
+      "_widget_1771864482718": "L50",
+      "_widget_1691320498349": "",
+      "_widget_1737180773935": "2026-05-11T11:18:13.000Z",
+      "_widget_1737180773934": {
+        "name": "James.Zhan",
+        "username": "jdy-zz3xu7hvdegg",
+        "status": 1,
+        "type": 0,
+        "departments": [
+          9,
+          45
+        ]
+      },
+      "_widget_1737272579786": [],
+      "_widget_1759760783235": 1,
+      "_widget_1694692461363": "SIT-003",
+      "_widget_1700102065912": [
+        {
+          "name": "欧洲部",
+          "dept_no": 9,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        },
+        {
+          "name": "Vitech-德国-法兰克福",
+          "dept_no": 45,
+          "type": 0,
+          "parent_no": 1,
+          "status": 1
+        }
+      ],
+      "_widget_1761571997913": "Basket(篮筐)",
+      "_widget_1761313993976": null,
+      "appId": "64d8fa5ab564650008a20bd4",
+      "entryId": "68fb8497d947258745cc9ba7"
+    }
+  ],
+  "labels": [
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\001_BC-RS2-8BB344_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\002_BC-RS2-542990_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\003_BC-RS2-229393_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\004_BC-RS2-02F105_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\005_BC-RS2-4B5290_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\006_BC-RS2-D2CA02_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\007_BC-RS2-582412_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\008_BC-RS2-0D9EA1_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\009_BC-RS2-CDBDD1_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\010_BC-RS2-2AC9A0_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\011_BC-RS2-C67B91_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\012_BC-RS2-BA6554_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\013_BC-RS2-BC2A86_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\014_BC-RS2-25736D_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\015_BC-RS2-DF6809_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\016_BC-RS2-D9A27D_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\017_BC-RS2-77087F_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\018_BC-RS2-3B48B8_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\019_BC-RS2-C9998E_L50.pdf",
+    "D:\\Arbeit\\CreateBcBatch\\bin\\output\\batch_20260511_191817\\labels\\020_BC-RS2-F80BCC_L50.pdf"
+  ],
+  "created_at": "2026-05-11T11:18:24Z"
+}
